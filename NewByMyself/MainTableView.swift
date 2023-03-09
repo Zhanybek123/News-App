@@ -22,6 +22,7 @@ class MainTableView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        addSubview(tableView)
         configure()
     }
     

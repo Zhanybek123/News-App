@@ -133,7 +133,6 @@ extension ViewController: UITableViewDelegate {
 //        self.present(detailVC, animated: true, completion: nil)
         self.navigationController?.pushViewController(detailVC, animated: true)
     }
-   
 }
 
 
